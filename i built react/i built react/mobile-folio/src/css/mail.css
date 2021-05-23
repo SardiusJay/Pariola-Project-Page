@@ -1,0 +1,477 @@
+.fewMin {
+  height: 100vh;
+  width: 100%;
+  background: #f5f5f5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: #474747;
+}
+
+.fewMin .pFew {
+  margin: 4rem auto;
+  line-height: 2.5;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2rem;
+}
+
+.fewMin .pLink {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  min-width: 23.222em;
+  position: relative;
+  font-weight: bold;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: -webkit-inline-box;
+  display: -ms-flexbox;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  overflow: hidden;
+  background: transparent;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.6em 3em;
+  margin: 0 auto;
+  margin-top: 1.2rem;
+  color: #cbc9e2;
+  border: 1px solid currentColor;
+  opacity: 1;
+  -webkit-transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-transition-property: -webkit-transform, box-shadow;
+  -webkit-transition-property: transform, box-shadow;
+  -webkit-transition-property: -webkit-transform, -webkit-box-shadow;
+  transition-property: -webkit-transform, -webkit-box-shadow;
+  transition-property: transform, box-shadow;
+  transition-property: transform, box-shadow, -webkit-transform, -webkit-box-shadow;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  outline: none;
+  cursor: pointer;
+}
+
+.fewMin .pLink.pLink:hover {
+  opacity: .7;
+  z-index: 1;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+}
+
+.mail {
+  height: 695px;
+  width: 100%;
+  background: #f5f5f5;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.mail ._mailWrapper {
+  width: 1092.800px;
+  height: 503.047px;
+  margin-top: 6rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.mail ._mailWrapper ._mailText {
+  text-align: center;
+  margin-bottom: 5.2em;
+  width: auto;
+}
+
+.mail ._mailWrapper ._mailText h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 1.3;
+  max-width: unset;
+  color: #474747;
+}
+
+.mail ._mailWrapper ._mailText p {
+  margin: 0 auto;
+  font-size: 1.2em;
+  line-height: 1.2;
+  margin-top: 15px;
+  letter-spacing: 0.02em;
+  width: 32vw;
+  max-width: 701px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #474747;
+  opacity: .7;
+}
+
+.mail ._mailWrapper ._mailForm {
+  width: 60%;
+  min-width: 500px;
+  height: 309.016px;
+  margin-top: -1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mail ._mailWrapper ._mailForm ._row {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mail ._mailWrapper ._mailForm ._row .rowI {
+  width: 45%;
+  height: auto;
+  display: inline-block;
+}
+
+.mail ._mailWrapper ._mailForm ._row .rowI label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: .9rem;
+  font-weight: 200;
+  color: #cbc9e2;
+}
+
+.mail ._mailWrapper ._mailForm ._row .rowI input {
+  font-weight: 200;
+  width: 100%;
+  height: 2rem;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #cbc9e2;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin-top: .5em;
+  font-size: 1.1rem;
+  padding: 1rem;
+  padding-left: 0px;
+  color: #474747;
+  caret-color: #474747;
+}
+
+.mail ._mailWrapper ._mailForm ._row .rowI input::-webkit-input-placeholder {
+  opacity: 0.7;
+  color: #474747;
+  font-size: 1rem;
+  background: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.mail ._mailWrapper ._mailForm ._row .rowI input:-ms-input-placeholder {
+  opacity: 0.7;
+  color: #474747;
+  font-size: 1rem;
+  background: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.mail ._mailWrapper ._mailForm ._row .rowI input::-ms-input-placeholder {
+  opacity: 0.7;
+  color: #474747;
+  font-size: 1rem;
+  background: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.mail ._mailWrapper ._mailForm ._row .rowI input::placeholder {
+  opacity: 0.7;
+  color: #474747;
+  font-size: 1rem;
+  background: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.mail ._mailWrapper ._mailForm ._row .rowI input:focus {
+  border-bottom: 1px solid #cbc9e2;
+}
+
+.mail ._mailWrapper ._mailForm ._row .rowT {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.mail ._mailWrapper ._mailForm ._row .rowT label {
+  margin-bottom: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: .9rem;
+  font-weight: 200;
+  color: #cbc9e2;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mail ._mailWrapper ._mailForm ._row .rowT label span {
+  font-weight: bold;
+}
+
+.mail ._mailWrapper ._mailForm ._row .rowT textarea::-webkit-input-placeholder {
+  opacity: 0.6;
+  color: #474747;
+  font-size: 1.1rem;
+  background: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.mail ._mailWrapper ._mailForm ._row .rowT textarea:-ms-input-placeholder {
+  opacity: 0.6;
+  color: #474747;
+  font-size: 1.1rem;
+  background: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.mail ._mailWrapper ._mailForm ._row .rowT textarea::-ms-input-placeholder {
+  opacity: 0.6;
+  color: #474747;
+  font-size: 1.1rem;
+  background: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.mail ._mailWrapper ._mailForm ._row .rowT textarea::placeholder {
+  opacity: 0.6;
+  color: #474747;
+  font-size: 1.1rem;
+  background: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.mail ._mailWrapper ._mailForm ._row .rowT textarea:focus {
+  border-bottom: 1px solid #cbc9e2;
+}
+
+.mail ._mailWrapper ._mailForm ._row .rowT textarea {
+  width: 100%;
+  height: 4.8rem;
+  display: block;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #cbc9e2;
+  cursor: text;
+  margin-top: -.3em;
+  font-size: 1rem;
+  padding: 1rem;
+  padding-left: 0px;
+  color: #474747;
+  caret-color: #474747;
+  resize: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.mail ._mailWrapper ._mailForm ._row .shoot {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  min-width: 23.222em;
+  position: relative;
+  font-weight: bold;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: -webkit-inline-box;
+  display: -ms-flexbox;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  overflow: hidden;
+  background: transparent;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1.6em 3em;
+  margin: 0 auto;
+  margin-top: 1.2rem;
+  color: #cbc9e2;
+  border: 1px solid currentColor;
+  opacity: 1;
+  -webkit-transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-transition-property: -webkit-transform, box-shadow;
+  -webkit-transition-property: transform, box-shadow;
+  -webkit-transition-property: -webkit-transform, -webkit-box-shadow;
+  transition-property: -webkit-transform, -webkit-box-shadow;
+  transition-property: transform, box-shadow;
+  transition-property: transform, box-shadow, -webkit-transform, -webkit-box-shadow;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  outline: none;
+  cursor: pointer;
+}
+
+.mail ._mailWrapper ._mailForm ._row .shoot img {
+  margin-left: .5em;
+  display: none;
+}
+
+.mail ._mailWrapper ._mailForm ._row .shoot:hover {
+  opacity: .7;
+  z-index: 1;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+}
+
+@media (max-width: 600px) {
+  .mail {
+    height: auto;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .mail ._mailWrapper {
+    width: 85%;
+    height: auto;
+    margin: 10rem auto;
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .mail ._mailWrapper ._mailText {
+    text-align: left;
+    margin-bottom: 5.2em;
+    width: 100%;
+    min-width: 300px;
+    margin-top: 2rem;
+  }
+  .mail ._mailWrapper ._mailText h1 {
+    font-size: 2.2em;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-top: 1rem;
+  }
+  .mail ._mailWrapper ._mailText p {
+    font-size: 1.2em;
+    line-height: 1.2;
+    margin-top: 2rem;
+    letter-spacing: 0.02em;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: .7;
+  }
+  .mail ._mailWrapper ._mailForm {
+    width: 100%;
+    min-width: 260px;
+    height: auto;
+    margin-top: -2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mail ._mailWrapper ._mailForm ._row {
+    display: block;
+  }
+  .mail ._mailWrapper ._mailForm ._row .rowI {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mail ._mailWrapper ._mailForm ._row .rowI input {
+    margin-bottom: 2em;
+  }
+  .mail ._mailWrapper ._mailForm ._row .rowT {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mail ._mailWrapper ._mailForm ._row .rowT textarea {
+    height: 8rem;
+    margin-bottom: 1.5rem;
+  }
+  .mail ._mailWrapper ._mailForm ._row .shoot {
+    width: 100%;
+    min-width: 260px;
+    margin-bottom: 2rem;
+  }
+}
+/*# sourceMappingURL=mail.css.map */

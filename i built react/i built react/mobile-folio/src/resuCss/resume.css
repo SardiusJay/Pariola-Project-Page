@@ -1,0 +1,633 @@
+
+.resume-page {
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+    display: grid;
+  color: #474747;
+    place-items: center;
+    position: relative;
+    padding: 2rem 0rem;
+      /* overflow-x: hidden; */
+}
+
+
+
+
+ 
+
+    
+
+.resume-page .resume-wrapper {
+    width: 1000px;
+    height: auto;
+    /* background-color: #24262C; */
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     overflow-x: hidden;
+     overflow: hidden;
+
+     margin-top: 10rem;
+     margin-bottom: 8rem;
+}
+
+.resume-page .resume-wrapper::-webkit-scrollbar {
+    width: 0rem;
+    
+} 
+
+.resume-page .resume-wrapper .resume-div{
+    height: 100%;
+    margin-bottom: auto;
+}    
+
+
+/* House for experience .resume-div1 */
+.resume-page .resume-wrapper .resume-div1{
+    width: 480px;
+    
+}
+
+/* Intro ========= */
+.resume-page .resume-wrapper .resume-div1 .intro{
+    height: auto;
+    width: 100%;
+    margin: 2rem auto;
+    margin-top: 0;
+    background-color: #F2F5FA;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    text-align: left;
+    /* text-justify: inter-word; */
+    padding-top: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+}
+
+.resume-page .resume-wrapper .resume-div1 .intro:nth-child(2) {
+    /* background-color: #1a50a7; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #cbc9e2;
+    padding-top: 1rem;
+}
+
+.resume-page .resume-wrapper .resume-div1 .intro:nth-child(2) .introS {
+    width: 100%;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    font-size: 1.6rem;
+    color: #474747;
+    
+}
+
+.resume-page .resume-wrapper .resume-div1 .intro:nth-child(2) .introS ion-icon {
+    -webkit-transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    -webkit-transition-property: -webkit-transform, box-shadow;
+    -webkit-transition-property: transform, box-shadow;
+    transition-property: transform, box-shadow;
+}
+
+.resume-page .resume-wrapper .resume-div1 .intro:nth-child(2) .introS ion-icon:hover {
+    transform: scale(0.86);
+}
+
+.resume-page .resume-wrapper .resume-div1 .intro h3 {
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+ } 
+
+.resume-page .resume-wrapper .resume-div1 .intro p {
+    margin: 1rem auto;
+    line-height: 1.4;
+ }  
+
+ /*End of  Intro ======  */
+
+  /*Start of Experience  ======  */
+
+.resume-page .resume-wrapper .resume-div1 .experience{
+    height: auto;
+    width: 100%;
+   
+    
+    background-color: #F2F5FA;
+    border-radius: 5px 0 5px 0;
+   text-align: left;
+   /* font-family: 'Josefin Sans', sans-serif; */
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+ }   
+    
+ 
+.resume-page .resume-wrapper .resume-div1 .experience .headE {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2rem auto;
+    height: 60px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    border-left: 6px solid #cbc9e2;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+} 
+
+.resume-page .resume-wrapper .resume-div1 .experience .headE h3 {
+   text-transform: capitalize;
+   font-size: 1.4rem;
+   font-family: 'Poppins', sans-serif;
+   margin: 0 .5rem;
+}  
+   
+.resume-page .resume-wrapper .resume-div1 .experience .headE span {
+    font-size: 1.6rem;
+}   
+   
+
+
+ /*Start of Experience wrapper ======  */
+
+ .resume-page .resume-wrapper .resume-div1 .experience-wrapper{
+    height: auto;
+    width: 100%;
+    margin: 2rem auto;
+    margin-top: 0;
+    /* background-color: #457cd4; */
+    border-radius: 0 0 5px 5px;
+    padding: 1rem 2rem;
+    text-align: left;
+    /* text-justify: inter-word; */
+    padding-top: 0rem;
+    padding-right: 1rem;
+    
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+}
+
+  /*Company Details -----  */
+
+  .resume-page .resume-wrapper .resume-div1 .experience-wrapper .headD {
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  .resume-page .resume-wrapper .resume-div1 .experience-wrapper .headD ul {
+        list-style: none;
+   }     
+  
+   .resume-page .resume-wrapper .resume-div1 .experience-wrapper .headD ul li {
+       margin: .5rem 0;
+       text-transform: capitalize;
+       font-weight: 500;
+       font-family: 'Dosis', sans-serif;
+        font-size: 1.1rem;
+   }
+
+   .resume-page .resume-wrapper .resume-div1 .experience-wrapper .headD ul li:nth-child(1) {
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+   }
+ 
+/*  The story itself */
+
+.resume-page .resume-wrapper .resume-div1 .experience-wrapper .story {
+    margin: 1rem 2rem;
+    /* background-color: #255cb4; */
+ }  
+ 
+ .resume-page .resume-wrapper .resume-div1 .experience-wrapper .story ul li {
+    margin: 1rem 0rem;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.4;
+    font-size: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+   
+ }  
+   
+
+    
+ /*end of Experience wrapper ======  */ 
+
+
+/*Real End of experience */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* House for Skills .resume-div2 */ 
+
+.resume-page .resume-wrapper .resume-div2{
+    width: 400px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+/* More details ========= */
+.resume-page .resume-wrapper .resume-div2 .more-details{
+    height: auto;
+    width: 100%;
+    margin: 2rem auto;
+    margin-top: 0;
+    background-color: #F2F5FA;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    text-align: left;
+    /* text-justify: inter-word; */
+    padding-top: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+}
+
+
+.resume-page .resume-wrapper .resume-div2 .more-details .lines {
+    margin: .6rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+ }  
+
+.resume-page .resume-wrapper .resume-div2 .more-details .lines p {
+    padding: 0 .8rem;
+ }  
+
+.resume-page .resume-wrapper .resume-div2 .more-details .lines p a{
+    text-decoration: none;
+ } 
+
+.resume-page .resume-wrapper .resume-div2 .more-details .lines p a:hover{
+    text-decoration: underline;
+ }  
+
+.resume-page .resume-wrapper .resume-div2 .more-details .lines span {
+   font-size: 1.2rem;
+ }  
+
+ /*End of  More details ======  */
+
+  /*Education ======  */
+ .resume-page .resume-wrapper .resume-div2 .education{
+    height: auto;
+    width: 100%;
+   
+    
+    background-color: #F2F5FA;
+    border-radius: 5px;
+    text-align: left;
+}  
+
+.resume-page .resume-wrapper .resume-div2 .education .eduT {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2rem auto;
+    height: 60px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    border-left: 6px solid #cbc9e2;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+} 
+
+.resume-page .resume-wrapper .resume-div2 .education .eduT h3 {
+   text-transform: capitalize;
+   font-size: 1.5rem;
+   font-family: 'Ubuntu', sans-serif;
+   margin: 0 .4rem;
+}  
+   
+.resume-page .resume-wrapper .resume-div2 .education .eduT span {
+    font-size: 1.5rem;
+}   
+   
+/* education wrapper ====== */
+
+.resume-page .resume-wrapper .resume-div2 .education .education-wrapper {
+    height: auto;
+    width: 100%;
+    margin: 2rem auto;
+    margin-top: 0;
+    background-color: #F2F5FA;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    text-align: left;
+    /* text-justify: inter-word; */
+    padding-top: 0rem;
+    padding-right: 1rem;
+
+    
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+}
+
+/* edu content */
+
+.resume-page .resume-wrapper .resume-div2 .education .education-wrapper .eduLine {
+    margin: .8rem auto;
+}
+
+.resume-page .resume-wrapper .resume-div2 .education .education-wrapper .eduLine h3 {
+    font-size: 1rem;
+    margin-bottom: .8rem;
+}
+
+.resume-page .resume-wrapper .resume-div2 .education .education-wrapper .eduLine p {
+    font-size: .89rem;
+    /* color: blue; */
+    line-height: 1.4;
+    text-transform: capitalize;
+}
+
+
+/* ======= Projects ========== */
+.resume-page .resume-wrapper .resume-div2 .proComp{
+    height: auto;
+    width: 100%;
+    background-color: #F2F5FA;
+    border-radius: 5px;
+    text-align: left;
+}
+   
+  /*Skills Title  */
+  .resume-page .resume-wrapper .resume-div2 .proComp  .proCompT {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2rem auto;
+    height: 60px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    border-left: 6px solid #cbc9e2;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+} 
+
+.resume-page .resume-wrapper .resume-div2 .proComp .proCompT h3 {
+   text-transform: capitalize;
+   font-size: 1.5rem;
+   font-family: 'Ubuntu', sans-serif;
+   margin: 0 .4rem;
+}  
+   
+.resume-page .resume-wrapper .resume-div2 .proComp .proCompT span {
+    font-size: 1.5rem;
+} 
+/*Project Title  */
+
+.resume-page .resume-wrapper .resume-div2 .proComp .proComp-wrapper {
+    height: auto;
+    width: 100%;
+    margin: 2rem auto;
+    margin-top: 0;
+    background-color: #F2F5FA;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    text-align: left;
+    /* text-justify: inter-word; */
+    padding-top: 0rem;
+    padding-right: 2rem;
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+}
+
+.resume-page .resume-wrapper .resume-div2 .proComp .proComp-wrapper .proCard{
+    height: auto;
+    width: 100%;
+     margin: 1rem auto;
+     margin-bottom: 1.4rem;
+}
+
+.resume-page .resume-wrapper .resume-div2 .proComp .proComp-wrapper .proCard h3 a{
+    text-transform: capitalize;
+    text-decoration: none;
+}  
+
+.resume-page .resume-wrapper .resume-div2 .proComp .proComp-wrapper .proCard h3 a:hover{
+    text-decoration: underline;
+ }   
+ 
+ .resume-page .resume-wrapper .resume-div2 .proComp .proComp-wrapper .proCard p{
+     /* text-transform: capitalize; */
+      margin: .6rem 0rem;
+     text-align: justify;
+     text-justify: inter-word;
+     font-size: .9rem;
+     line-height: 1.4;
+    
+ }     
+ 
+ /* ======= Projects ========== */
+    
+   
+
+
+
+
+
+
+
+/* ======= skills ========== */
+.resume-page .resume-wrapper .resume-div2 .skills{
+    height: auto;
+    width: 100%;
+    background-color: #F2F5FA;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+}
+   
+  /*Skills Title  */
+  .resume-page .resume-wrapper .resume-div2 .skills  .skillsT {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2rem auto;
+    height: 60px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    border-left: 6px solid #cbc9e2;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+} 
+
+.resume-page .resume-wrapper .resume-div2 .skills .skillsT h3 {
+   text-transform: capitalize;
+   font-size: 1.5rem;
+   font-family: 'Ubuntu', sans-serif;
+   margin: 0 .4rem;
+}  
+   
+.resume-page .resume-wrapper .resume-div2 .skills .skillsT span {
+    font-size: 1.5rem;
+} 
+/*Skills Title  */
+
+.resume-page .resume-wrapper .resume-div2 .skills .skills-wrapper {
+    height: auto;
+    width: 100%;
+    margin: 2rem auto;
+    margin-top: 0;
+    background-color: #F2F5FA;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    text-align: left;
+    /* text-justify: inter-word; */
+    padding-top: 0rem;
+    padding-right: 1rem;
+}
+    
+.resume-page .resume-wrapper .resume-div2 .skills .skills-wrapper ul li {
+    list-style: none;
+    margin: .8rem auto;
+    font-size: .9rem;
+}
+/* End of skills */
+
+
+/* Reusable one */
+
+.resume-page .resume-wrapper .resume-div2 .reusable{
+    height: auto;
+    width: 100%;
+    background-color: #F2F5FA;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+}
+   
+
+  .resume-page .resume-wrapper .resume-div2 .reusable  .reuseT {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2rem auto;
+    height: 60px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    border-left: 6px solid #cbc9e2;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+} 
+
+.resume-page .resume-wrapper .resume-div2 .reusable .reuseT h3 {
+   text-transform: capitalize;
+   font-size: 1.5rem;
+   font-family: 'Ubuntu', sans-serif;
+   margin: 0 .4rem;
+}  
+   
+.resume-page .resume-wrapper .resume-div2 .reusable .reuseT span {
+    font-size: 1.5rem;
+} 
+
+.resume-page .resume-wrapper .resume-div2 .reusable .reusable-wrapper {
+    height: auto;
+    width: 100%;
+    margin: 2rem auto;
+    margin-top: 0;
+    background-color: #F2F5FA;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    text-align: left;
+    /* text-justify: inter-word; */
+    padding-top: 0rem;
+    padding-right: 1rem;
+}
+    
+.resume-page .resume-wrapper .resume-div2 .reusable .reusable-wrapper ul li {
+    list-style: none;
+    margin: .5rem auto;
+    font-size: .88rem;
+}
+
+/*End of Reusable one ========= */
+
+
+/* Reusable two ========= */
+.resume-page .resume-wrapper .resume-div2 .reusable2{
+    height: auto;
+    width: 100%;
+    background-color: #F2F5FA;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+}
+
+.resume-page .resume-wrapper .resume-div2 .reusable2  .reuse2T {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2rem auto;
+    height: 60px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    border-left: 6px solid #cbc9e2;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+} 
+
+.resume-page .resume-wrapper .resume-div2 .reusable2 .reuse2T h3 {
+   text-transform: capitalize;
+   font-size: 1.5rem;
+   font-family: 'Ubuntu', sans-serif;
+   margin: 0 .4rem;
+}  
+   
+.resume-page .resume-wrapper .resume-div2 .reusable2 .reuse2T span {
+    font-size: 1.5rem;
+} 
+
+.resume-page .resume-wrapper .resume-div2 .reusable2 .reusable2-wrapper {
+    height: auto;
+    width: 100%;
+    margin: 2rem auto;
+    margin-top: 0;
+    background-color: #F2F5FA;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    text-align: left;
+    /* text-justify: inter-word; */
+    padding-top: 0rem;
+    padding-right: 1rem;
+}
+
+.resume-page .resume-wrapper .resume-div2 .reusable2 .reusable2-wrapper .lines {
+    margin: .6rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+ }  
+
+.resume-page .resume-wrapper .resume-div2 .reusable2 .reusable2-wrapper .lines p {
+    padding: 0 .8rem;
+ }  
+
+.resume-page .resume-wrapper .resume-div2 .reusable2 .reusable2-wrapper .lines p a{
+    text-decoration: none;
+    font-size: .88rem;
+ } 
+
+.resume-page .resume-wrapper .resume-div2 .reusable2 .reusable2-wrapper .lines p a:hover{
+    text-decoration: underline;
+ }  
+
+.resume-page .resume-wrapper .resume-div2 .reusable2 .reusable2-wrapper .lines span {
+   font-size: 1.2rem;
+ }  
+
+ /*End of  reusable 2 ======  */

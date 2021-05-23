@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&family=Josefin+Sans:wght@300;400&family=Poppins:wght@300;400;500&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #020e18;
+  overflow: hidden;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+  
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color:rgba(0, 255, 184, 0.538);
+}
+
+main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+._navbar {
+    width: 100%;
+    height: 80px;
+     display: grid;
+  place-items: center;
+   position: absolute;
+   top: 0;
+   left: 0;
+   /* background: #1e649e; */
+   z-index: 100;
+}
+
+._navbar ._nav_wrapper{
+    width: 900px;
+    height: 100%;
+    /* background: #479e1e; */
+      display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+._navbar ._nav_wrapper h3{
+   font-family: 'Josefin Sans', sans-serif;
+   font-style: oblique;
+   text-transform: capitalize;
+   font-size: 1.4rem;
+   animation-duration: 1s;
+}
+
+._navbar ._nav_wrapper h3 a{
+   font-family: 'Josefin Sans', sans-serif;
+   font-style: oblique;
+   text-transform: capitalize;
+   font-size: 1rem;
+}
+
+.line_bg {
+  will-change: transform;
+  height: 150vh;
+  top: -250px;
+  left: -460px;
+  position: fixed;
+}
+
+._wrapper {
+    width: 1100px;
+    height: 450px;
+      display: flex;
+    align-items: center;
+    justify-content: space-around;
+  /* background-color:rgb(7, 23, 37); */
+  border-radius: 30px;
+  margin-top: 4rem;
+  /* overflow: hidden; */
+}
+
+._wrapper::-webkit-scrollbar {
+    width: 0rem;
+    
+} 
+
+._wrapper ._side{
+    width: auto;
+    height: auto;
+} 
+
+._wrapper ._side ._head {
+    width: auto;
+    height: auto;
+}
+
+._wrapper ._side ._head h3{
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+     width: 450px;
+     margin: 1rem 0;
+       text-align: left;
+       animation-duration: 1s;
+}    
+ 
+._wrapper ._side ._head h3 ._icon{
+    font-size: 3rem; 
+}
+
+._wrapper ._side ._head h3:nth-child(1){
+   margin-bottom: 0rem; 
+} 
+._wrapper ._side ._head h3:nth-child(2){
+    font-size: 2.6rem; 
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 0rem; 
+} 
+
+._wrapper ._side span{
+     line-height: 2.3;
+     font-size: 18px;
+     -webkit-transform: translate(0, 40px);
+     transform: translate(0, 40px);
+     color: #ffffffaf;
+ }  
+ 
+ ._wrapper ._side span p{
+     margin-top: 35px;
+     max-width: 400px;
+     font-family: 'Josefin Sans', sans-serif;
+     text-align: left;
+ }   
+    
+
+ /* Image Holder */
+
+ ._wrapper ._side2{
+     width: 500px;
+    height: 500px;
+   border-radius: 100%;
+   position: relative;
+    display: grid;
+  place-items: center;
+  /* background: #06121E; */
+   background-color:rgb(7, 23, 37);
+  /* border: 1px solid rgba(0, 255, 184, 0.538); */
+  border: 2px solid rgba(0, 255, 184, 0.075);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+} 
+ ._wrapper ._side2 span{
+   border-radius: 100%;
+} 
+   
+._wrapper ._side2 span:nth-child(1){
+    border: 2px solid rgba(0, 255, 184, 0.16);
+    width: 400px;
+    height: 400px;
+      display: grid;
+  place-items: center;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}      
+
+ ._wrapper ._side2 span:nth-child(1) span{
+    border: 2px solid rgba(0, 255, 184, 0.221);
+    width: 300px;
+    height: 300px;
+      display: grid;
+  place-items: center;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+._side2 span:nth-child(1) span:nth-child(1) span {
+     border: 2px solid rgba(0, 255, 184, 0.385);
+    width: 200px;
+    height: 200px;
+     display: grid;
+  place-items: center;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+._side2 span:nth-child(1) span:nth-child(1) span:nth-child(1) span  {
+     border: 2px solid rgba(0, 255, 184, 0.538);
+    width: 100px;
+    height: 100px;
+    animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+._side2 ._imgW {
+    border-radius: 100%;
+      width: 100%;
+    height: 100%;
+    position: absolute;
+    /* background-color: blue; */
+    z-index: 2;
+    /* overflow: hidden; */
+     display: grid;
+  place-items: center
+  }  
+
+._side2 ._imgW img {
+    z-index: 999;
+      position: absolute;
+       height: 900px;
+       transform: rotate(7deg);
+       transition: .4s ease-in;
+       animation-duration: 1s;
+}
+
+  
+   
+   
+@media only screen and (max-width: 900px) {
+
+    ._navbar ._nav_wrapper{
+    width: 100%;
+    padding: 0 2rem ;
+    }
+
+}   
+   
+    
+
+@media only screen and (max-width: 800px) {
+
+    main {
+        width: 100%;
+        height: auto;
+    }
+    
+    ._wrapper {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-top: 6rem;
+        overflow-x: hidden;
+    }
+     
+        ._wrapper ._side{
+            width: 90%;
+            height: auto;
+        } 
+
+    ._wrapper ._side ._head h3{
+        width: 100%;
+        margin: 1rem 0;
+        text-align: center;
+         
+  }
+       
+  ._wrapper ._side ._head h3:nth-child(1){
+      margin-bottom: 0rem; 
+      text-align: center;
+      margin-top: 2rem; 
+  } 
+  ._wrapper ._side ._head h3:nth-child(2){
+      font-size: 2rem; 
+      font-family: 'Josefin Sans', sans-serif;
+      margin-top: 0rem; 
+      text-align: center;
+       line-height: 1.5;
+  } 
+  
+  ._wrapper ._side span p{
+       text-align: center;
+        margin: 0 auto;
+       margin-top: 35px;
+  }   
+     
+  /*==== IMGHolder ==== */
+
+ ._wrapper ._side2{
+     width: 500px;
+    height: 500px;
+  margin-top: 2rem;
+}         
+
+
+    ._wrapper ._side ._head h3 ._icon::before{
+        content: '\a';
+        white-space: pre;
+    }
+
+
+}       
+
+@media only screen and (max-width: 400px) {
+
+    ._navbar ._nav_wrapper{
+    width: 100%;
+    padding: 0 1rem ;
+    }
+
+} 

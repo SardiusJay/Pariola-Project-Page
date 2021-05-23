@@ -1,0 +1,20 @@
+{
+  "short_name": "Pariola",
+  "name": "pariola.tech",
+  "icons": [    
+    {
+      "src": "Ipariola.jpg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "Ipariola.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": " #2c2c2c"
+}

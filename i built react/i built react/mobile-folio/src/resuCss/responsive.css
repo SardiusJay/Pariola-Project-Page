@@ -1,0 +1,144 @@
+@media only screen and (max-width: 1050px) {
+ .resume-page .resume-banner .resume-banner-container {
+    width: 100%;
+ }
+     
+.resume-page .resume-banner .resume-banner-container .banner_box {
+    width: 100%;
+}  
+    
+.resume-page .resume-wrapper {
+    width: 100%;
+    flex-direction: row;
+}
+ 
+/* House for experience .resume-div1 */
+.resume-page .resume-wrapper .resume-div1{
+    width: 46%;
+     margin: 0 auto;
+     margin-bottom: auto;
+}
+   
+/* House for experience .resume-div2 */
+.resume-page .resume-wrapper .resume-div2{
+    width: 38%;
+    margin: 0 auto;
+    margin-bottom: auto;
+}
+  
+  
+   
+
+}
+
+
+@media only screen and (max-width: 768px) {
+        .resume-page .resume-banner .resume-banner-container {
+    width: 100%;
+ }
+     
+.resume-page .resume-banner .resume-banner-container .banner_box {
+    width: 100%;
+}  
+    
+.resume-page .resume-wrapper {
+    width: 100%;
+    flex-direction: column;
+}
+ 
+/* House for experience .resume-div1 */
+.resume-page .resume-wrapper .resume-div1{
+    width: 70%;
+     margin: 0 auto;
+     margin-bottom: auto;
+}
+   
+/* House for experience .resume-div2 */
+.resume-page .resume-wrapper .resume-div2{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: auto;
+}
+
+} 
+
+ @media only screen and (max-width: 600px) {
+        .resume-page .resume-banner .resume-banner-container {
+    width: 100%;
+ }
+     
+.resume-page .resume-banner .resume-banner-container .banner_box {
+    width: 100%;
+}  
+    
+.resume-page .resume-wrapper {
+    width: 100%;
+    flex-direction: column;
+}
+ 
+/* House for experience .resume-div1 */
+.resume-page .resume-wrapper .resume-div1{
+    width: 90%;
+      margin: 0 auto;
+     margin-bottom: auto;
+}
+   
+/* House for experience .resume-div2 */
+.resume-page .resume-wrapper .resume-div2{
+    width: 90%;
+      margin: 0 auto;
+     margin-bottom: auto;
+}
+   
+.resume-page .resume-wrapper .resume-div2 .reusable2 .reusable2-wrapper .lines p a{
+  font-size: .9rem;
+ } 
+  
+ .resume-page .resume-wrapper .resume-div2 .reusable .reusable-wrapper ul li {
+     font-size: .9rem;
+ }
+    
+ .resume-page .resume-wrapper .resume-div2 .skills .skills-wrapper ul li {
+     font-size: .9rem;
+ }
+ .resume-page .resume-wrapper .resume-div2 .proComp .proComp-wrapper .proCard p {
+     font-size: .9rem;
+ }
+ 
+ .resume-page .resume-wrapper .resume-div2 .education .education-wrapper .eduLine p {
+    font-size: .9rem;
+}
+
+.resume-page .resume-wrapper .resume-div2 .more-details .lines {
+    font-size: .9rem;
+ }  
+   
+ /* Floating btn */
+ .resume-page .float-resu{
+     width: 300px;
+     height: 50px;
+     background-color: rgba(255, 255, 255, 0.85);
+     position: fixed;
+     
+     border-radius: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     flex-direction: row;
+     bottom: 0%;
+     right: 50%;
+    transform: translate(50%,-50%);
+     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+ }
+
+ .resume-page .float-resu a ion-icon {
+     font-size: 1.5rem;
+     color: #24262C;
+     
+ }
+ /* Floating btn */
+
+}    
+
+
